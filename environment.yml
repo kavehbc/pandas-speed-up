@@ -1,0 +1,15 @@
+name: pandas-speed-up
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pandas
+  - numpy
+  - jupyterlab
+  - dask
+  - pip
+  - pip:
+      - tqdm
+      - pandarallel
+      - ipython-autotime
