@@ -1,4 +1,4 @@
-# pandas-speed-up
+# Pandas Speed-Up
 #### How to Speed-Up Pandas Data Frames
 
 This Jupyter Notebook (pandas.ipynb) implements different ways of data processing, such as:
