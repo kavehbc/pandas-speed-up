@@ -37,7 +37,7 @@ def parallelize_dataframe(df, func, n_cores=4):
 
 
 def parallelize_dataframe_future(df, func, n_cores=4):
-    # https://towardsdatascience.com/how-to-make-your-pandas-operation-100x-faster-81ebcd09265c
+
     # calculate the chunk size as an integer
     df_chunks = np.array_split(df, n_cores)
     
